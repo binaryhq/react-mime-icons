@@ -1,0 +1,29 @@
+{
+  "name": "react-mime-icons",
+  "version": "0.0.1",
+  "description": "react mime icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ningappa/react-mime-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "react",
+    "mime",
+    "mime-icons"
+  ],
+  "author": "Ningappa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ningappa/react-mime-icons/issues"
+  },
+  "homepage": "https://github.com/ningappa/react-mime-icons#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react-icon-base": "^2.1.2"
+  }
+}
