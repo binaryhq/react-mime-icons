@@ -13,12 +13,8 @@ module.exports = {
             test: /\.(js|jsx)$/,
             exclude: /node_modules/,
             include: path.resolve(__dirname, "src"),
-            use: ["babel-loader?cacheDirectory"]
-          },
-          {
-            test: /\.(css|scss)$/,
-            use: ["style-loader", "css-loader", "sass-loader"]
-          },
+            use: ["babel-loader"]
+          },         
     ]
   },
   externals: {
