@@ -94,7 +94,7 @@ const resolve  = (mimetype)=> {
           }
       }
   }
-export default class FileMimeIcons extends Component {
+export default class ReactMimeIcons extends Component {
     constructor(props) {
         super(props);
     }
@@ -109,13 +109,13 @@ export default class FileMimeIcons extends Component {
     }
 }
 
-FileMimeIcons.propTypes = {
+ReactMimeIcons.propTypes = {
     mimetype: PropTypes.string,
     type : PropTypes.string,
     color: PropTypes.string,
     size: PropTypes.string    
 };
-FileMimeIcons.defaultProps ={
+ReactMimeIcons.defaultProps ={
   type : "fa",
   size : "1em"
 }
