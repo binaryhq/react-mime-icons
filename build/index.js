@@ -18,6 +18,8 @@ var _fileAudioO = _interopRequireDefault(require("./Icons/fa/file-audio-o"));
 
 var _fileMovieO = _interopRequireDefault(require("./Icons/fa/file-movie-o"));
 
+var _filePdfO = _interopRequireDefault(require("./Icons/fa/file-pdf-o"));
+
 var _fileWordO = _interopRequireDefault(require("./Icons/fa/file-word-o"));
 
 var _fileExcelO = _interopRequireDefault(require("./Icons/fa/file-excel-o"));
@@ -71,6 +73,7 @@ var iconsComponents = {
   "fa-FileImageO": _fileImageO["default"],
   "fa-FileAudioO": _fileAudioO["default"],
   "fa-FileMovieO": _fileMovieO["default"],
+  "fa-FilePdfO": _filePdfO["default"],
   "fa-FileWordO": _fileWordO["default"],
   "fa-FileExcelO": _fileExcelO["default"],
   "fa-FilePowerpointO": _filePowerpointO["default"],

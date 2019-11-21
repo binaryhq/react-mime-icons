@@ -7,6 +7,7 @@ import PropTypes from "prop-types";
 import FaFileImageO from "./Icons/fa/file-image-o"
 import FaFileAudioO from "./Icons/fa/file-audio-o"
 import FaFileMovieO from "./Icons/fa/file-movie-o"
+import FaFilePdfO from "./Icons/fa/file-pdf-o";
 import FaFileWordO from "./Icons/fa/file-word-o"
 import FaFileExcelO from "./Icons/fa/file-excel-o"
 import FaFilePowerpointO from "./Icons/fa/file-powerpoint-o"
@@ -21,6 +22,7 @@ const iconsComponents = {
     "fa-FileImageO" : FaFileImageO,
     "fa-FileAudioO" : FaFileAudioO,
     "fa-FileMovieO" : FaFileMovieO,
+    "fa-FilePdfO" : FaFilePdfO,
     "fa-FileWordO" : FaFileWordO,
     "fa-FileExcelO" : FaFileExcelO,
     "fa-FilePowerpointO" : FaFilePowerpointO,
