@@ -2,9 +2,11 @@
   "name": "react-mime-icons",
   "version": "0.0.3",
   "description": "react mime icons",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,14 +24,24 @@
     "url": "https://github.com/ningappa/react-mime-icons/issues"
   },
   "homepage": "https://github.com/ningappa/react-mime-icons#readme",
+  "peerDependencies": {
+    "react": "^16.12.0"
+  },
   "dependencies": {
     "prop-types": "^15.7.2",
     "react-icon-base": "^2.1.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/preset-react": "^7.7.0"
+    "@babel/core": "7.4.4",
+    "@babel/node": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/preset-env": "7.4.4",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.5",
+    "babel-polyfill": "6.26.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }

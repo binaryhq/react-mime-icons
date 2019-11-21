@@ -1,20 +1,20 @@
-/**
- * @version 0.0.1
+'use strict'
+/** 
  * @author Ningappa Kamate 
  */
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import FaFileImageO from "Icons/file-image-o"
-import FaFileAudioO from "Icons/fa/file-audio-o"
-import FaFileMovieO from "Icons/fa/file-movie-o"
-import FaFileWordO from "Icons/fa/file-word-o"
-import FaFileExcelO from "Icons/fa/file-excel-o"
-import FaFilePowerpointO from "Icons/fa/file-powerpoint-o"
-import FaFileTextO from "Icons/fa/file-text-o"
-import FaFileAlt from "Icons/fa/file-alt"
-import FaFileCodeO from "Icons/fa/file-code-o"
-import FaFileArchiveO from "Icons/fa/file-archive-o"
-import FaFileO from "Icons/fa/file-o"
+import FaFileImageO from "./Icons/fa/file-image-o"
+import FaFileAudioO from "./Icons/fa/file-audio-o"
+import FaFileMovieO from "./Icons/fa/file-movie-o"
+import FaFileWordO from "./Icons/fa/file-word-o"
+import FaFileExcelO from "./Icons/fa/file-excel-o"
+import FaFilePowerpointO from "./Icons/fa/file-powerpoint-o"
+import FaFileTextO from "./Icons/fa/file-text-o"
+import FaFileAlt from "./Icons/fa/file-alt"
+import FaFileCodeO from "./Icons/fa/file-code-o"
+import FaFileArchiveO from "./Icons/fa/file-archive-o"
+import FaFileO from "./Icons/fa/file-o"
 
 const iconsComponents = {
     //Fontawesome Icons

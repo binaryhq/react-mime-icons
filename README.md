@@ -1,2 +1,6 @@
-# react-mime-icons 
-## In developement
+# react-mime-icons
+
+```
+npm install react-mime-icons --save
+
+```
